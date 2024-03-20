@@ -1,0 +1,27 @@
+{
+  "name": "image-place-generator",
+  "version": "0.2.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoelcipher/image-place-generator"
+  },
+  "description": "A library to generate placeholder images with custom dimensions and optional text.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sharp": "^0.29.3"
+  },
+  "keywords": [
+    "image",
+    "placeholder",
+    "generator",
+    "express",
+    "sharp"
+  ],
+  "author": "Yoel Hedgeman",
+  "license": "ISC"
+}
